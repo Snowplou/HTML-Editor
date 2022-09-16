@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+}
+
+#inputDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inputTitle {
+    display: block;
+    text-align: center;
+}
+
+.input {
+    margin: 0.5vh;
+    height: 90vh;
+    resize: horizontal;
+    border-radius: 10px;
+    overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+
+#htmlRunner {
+    display: block;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vh;
+    height: 90vh;
+    border: solid;
+    padding: 1vh;
+}
